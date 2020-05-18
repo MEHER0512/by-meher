@@ -1,0 +1,13 @@
+//product of two numbers...Mycaptain app question
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	double firstnumber,secondnumber,product;
+	cout<<"ENTER TWO NUMBERS:";
+	cin>>firstnumber>>secondnumber;
+	product=firstnumber*secondnumber;
+	cout<<"product="<<product;
+	return 0;
+}
